@@ -1,0 +1,10 @@
+# Entorno virtual
+clase/
+venv/
+
+# Imágenes generadas
+aruco_*.png
+
+# Archivos de Python
+__pycache__/
+*.py[cod]

@@ -3,12 +3,15 @@
 Este proyecto permite controlar el volumen de Windows utilizando marcadores ArUco y una cámara web.
 
 ## Instalación y Configuración
-1. **Crear y activar entorno virtual:**
+1. **Crear entorno virtual:**
    ```bash
-   python -m venv clase 
+   python -m venv clase
+   
+2. **Activar entorno virtual**
+   ```bash
    .\clase\Scripts\activate
 
-2. **Instalar dependencias necesarias**
+3. **Instalar dependencias necesarias**
    ```bash
     pip install opencv-python opencv-contrib-python pycaw comtypes numpy
 

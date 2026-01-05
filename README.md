@@ -9,11 +9,14 @@ Este proyecto permite controlar el volumen de Windows utilizando marcadores ArUc
    .\clase\Scripts\activate
 
 2. **Instalar dependencias necesarias**
+   ```bash
     pip install opencv-python opencv-contrib-python pycaw comtypes numpy
 
 ## Modo de uso
 1. **Generar marcadores**
+   ```bash
     python generate_aruco.py
 
-2. **Ejecutar el marcador**
+3. **Ejecutar el marcador**
+   ```bash
     python search_aruco.py
